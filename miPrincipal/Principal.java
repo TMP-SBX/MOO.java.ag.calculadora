@@ -1,11 +1,13 @@
 package miPrincipal;
 
 public class Principal {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
+    
     public static void main(String[] args) {
-        System.out.println(new Principal().getGreeting());
+        Calculadora c = new Calculadora();
+
+        System.out.println("CALCULADORA BÁSICA");
+        System.out.println("------------------");
+
+        System.out.println("2+3="+c.suma(2, 3));
     }
 }
