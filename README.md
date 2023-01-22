@@ -57,7 +57,7 @@ java -jar lib/junit-platform-console-standalone-1.5.2.jar -class-path build --se
 ## Ejecutar 1 prueba local de 1 Test Case
 
 ```
-java -jar lib/junit-platform-console-standalone-1.5.2.jar -class-path build --select-class miTest.AppTest.appHasAGreeting
+java -jar lib/junit-platform-console-standalone-1.5.2.jar -class-path build --select-method miTest.AppTest#appHasAGreeting
 ```
 ## Ejecutar App
 ```
