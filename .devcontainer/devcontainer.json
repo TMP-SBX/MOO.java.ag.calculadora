@@ -1,6 +1,7 @@
 {
     "extensions" : [
       "GitHub.copilot",
-      "vscjava.vscode-java-pack"
+      "vscjava.vscode-java-pack",
+	  "hediet.vscode-drawio"
   ]
-  }
+}
